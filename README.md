@@ -1,4 +1,4 @@
-#  MedRAG • Medical Literature Intelligence
+# 🏥 MedRAG • Medical Literature Intelligence
 
 **18 Million Research Chunks • Fusion-in-Decoder Architecture • Medical Domain Specialization**
 
@@ -6,26 +6,40 @@
 
 ---
 
-##  Core Innovation
+## 📁 Dataset Access
 
-###  **Unprecedented Scale**
+### **🔗 Primary Dataset Repository**
+**[Google Drive - Healthcare Literature Corpus](https://drive.google.com/drive/folders/1jSQK8II0VRy1G4lwCO2lHNUK1mcj-qhO?usp=sharing)**
+
+**Contents:**
+- 18M+ semantic research chunks in JSONL format
+- AI + Healthcare interdisciplinary research papers
+- Structured abstracts and full-text excerpts
+- Medical domain-optimized corpus
+
+---
+
+## 💎 Core Innovation
+
+### 🗂️ **Unprecedented Scale**
 - **18 Million+** semantic research chunks
 - **AI + Healthcare** interdisciplinary corpus
 - **Structured academic content** from peer-reviewed sources
+- **Publicly accessible dataset** for research community
 
-###  **Advanced Architecture**
+### 🧠 **Advanced Architecture**
 - **Google Flan-T5-Large** Fusion-in-Decoder model
 - **Source-grounded generation** with citation fidelity
 - **Medical terminology preservation** and domain adaptation
 
-###  **Engineering Excellence**
+### ⚡ **Engineering Excellence**
 - **FAISS-optimized retrieval** across massive corpus
 - **Intelligent compression** maintaining 97%+ accuracy
 - **Multi-stage quality assurance** pipeline
 
 ---
 
-##  System Capabilities
+## 🎯 System Capabilities
 
 ### **Literature Survey Generation**
 Comprehensive academic reviews with proper structural formatting and source attribution
@@ -38,12 +52,13 @@ Coherent integration of multiple research perspectives with citation integrity
 
 ---
 
-##  Technical Foundation
+## 🏗️ Technical Foundation
 
 ### **Data Layer**
 - 18M+ semantically chunked research excerpts
 - Cross-domain AI + Healthcare literature
 - Academic-grade source material
+- **Public Dataset**: [Access Here](https://drive.google.com/drive/folders/1jSQK8II0VRy1G4lwCO2lHNUK1mcj-qhO?usp=sharing)
 
 ### **Retrieval Engine**
 - Optimized FAISS implementation
@@ -57,11 +72,12 @@ Coherent integration of multiple research perspectives with citation integrity
 
 ---
 
-##  Scale & Performance
+## 📊 Scale & Performance
 
 | Metric | Achievement |
 |--------|-------------|
 | **Research Chunks** | 18,000,000+ |
+| **Dataset Access** | [Google Drive](https://drive.google.com/drive/folders/1jSQK8II0VRy1G4lwCO2lHNUK1mcj-qhO?usp=sharing) |
 | **Domain Coverage** | AI + Healthcare |
 | **Architecture** | Fusion-in-Decoder |
 | **Model** | Flan-T5-Large (3B) |
@@ -69,7 +85,7 @@ Coherent integration of multiple research perspectives with citation integrity
 
 ---
 
-##  Research Applications
+## 🎨 Research Applications
 
 - **Accelerated literature reviews** for medical researchers
 - **Comprehensive topic analysis** with multi-paper synthesis
@@ -78,23 +94,25 @@ Coherent integration of multiple research perspectives with citation integrity
 
 ---
 
-##  Innovation Highlights
+## 🌟 Innovation Highlights
 
-** Domain Specialization**
+**🔬 Domain Specialization**
 - Medical terminology accuracy
 - Healthcare research context understanding
 - Clinical application relevance
 
-** Scale Mastery**
+**📚 Scale Mastery**
 - Proven 18M+ chunk processing
 - Efficient large-corpus management
 - Maintained quality at scale
+- **Public Dataset Available**: [Access Corpus](https://drive.google.com/drive/folders/1jSQK8II0VRy1G4lwCO2lHNUK1mcj-qhO?usp=sharing)
 
-** Architectural Sophistication**
+**🎯 Architectural Sophistication**
 - Fusion-in-Decoder for factual grounding
 - Source integrity preservation
 - Academic output formatting
 
 ---
 
-*Transforming medical literature review through large-scale AI synthesis and domain-optimized architecture.*
+*Transforming medical literature review through large-scale AI synthesis and domain-optimized architecture.  
+Dataset publicly available for research community advancement.*
