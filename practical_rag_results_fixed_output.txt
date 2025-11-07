@@ -1,0 +1,107 @@
+================================================================================
+PRACTICAL RAG SYSTEM BATCH TEST RESULTS (FIXED PENALTIES)
+Timestamp: 2025-11-05T11:58:22.973871
+Generator Model: google/flan-t5-large
+Total Chunks Loaded: 94993
+================================================================================
+
+--------------------------------------------------
+QUERY 1: LITERATURE_SURVEY - deep learning in medical imaging
+--------------------------------------------------
+Query: deep learning in medical imaging
+Word Count: 406
+Quality Score: 8/10
+Processing Time: 29.09s
+Content:
+Abstract: Since its renaissance, deep learning has been widely used in various medical imaging tasks and has achieved remarkable success in many medical imaging applications, thereby propelling us into the so-called artificial intelligence (AI) era. It [Source 1] Title: Medical Imaging with Deep Learning: MIDL 2020 -- Short Paper Track Abstract: This compendium gathers all the accepted extended abstracts from the Third International Conference on Medical Imaging with Deep Learning (MIDL 2020), held in Montreal, Canada, 6-9 July 2020. Note that only accepted extended abstracts are listed here, the Proceedings of the MIDL 2020 Full Paper Track are published [Source 2] Title: An overview of deep learning in medical imaging focusing on MRI Abstract: What has happened in machine learning lately, and what does it mean for the future of medical image analysis? Machine learning has witnessed a tremendous amount of attention over the last few years. The current boom started around 2009 when so-called deep artificial neural networks began outperforming other establishe [Source 3] Title: Deep learning in radiology: An overview of the concepts and a survey of the state of the art with focus on MRI. Abstract: Deep learning is a branch of artificial intelligence where networks of simple interconnected units are used to extract patterns from data in order to solve complex problems. Deep-learning algorithms have shown groundbreaking performance in a variety of sophisticated task [Source 4] Title: Deep learning in radiology: An overview of the concepts and a survey of the state of the art with focus on MRI. Abstract: Deep learning is a branch of artificial intelligence where networks of simple interconnected units are used to extract patterns from data in order to solve complex problems. Deep-learning algorithms have shown groundbreaking performance in a variety of sophisticated task [Source 5] Title: Deep learning in radiology: An overview of the concepts and a survey of the state of the art with focus on MRI. Abstract: Deep learning is a branch of artificial intelligence where networks of simple interconnected units are used to extract patterns from data in order to solve complex problems. Deep-learning algorithms have shown groundbreaking performance in a variety of sophisticated task [Source 6] Title: Deep learning in radiology: An overview of the concepts and a survey of the state of the art with focus on MRI. Abstract: Deep learning is a branch of artificial intelligence where networks of simple interconnected units are used to extract patterns from data in
+
+--------------------------------------------------
+QUERY 2: QA - clinical decision support systems
+--------------------------------------------------
+Query: How can transformer models improve clinical decision support systems?
+Word Count: 260
+Quality Score: 8/10
+Processing Time: 24.16s
+Content:
+Abstract: Pre-trained transformers are often fine-tuned to aid clinical decision-making using limited clinical notes. Model interpretability is crucial, especially in high-stakes domains like medicine, to establish trust and ensure safety, which requires human engagement. We introduce SUFO, a systematic framew [Source 2] Title: Diagnosing Transformers: Illuminating Feature Spaces for Clinical Decision-Making Abstract: Pre-trained transformers are often fine-tuned to aid clinical decision-making using limited clinical notes. Model interpretability is crucial, especially in high-stakes domains like medicine, to establish trust and ensure safety, which requires human engagement. We introduce SUFO, a systematic framew [Source 3] Title: Predicting future state for adaptive clinical pathway management Abstract: Clinical decision support systems (CDSS) are widely used to assist with medical decision making. However, CDSS typically require manually curated rules and other data which are difficult to maintain and keep up-to-date. Recent systems leverage advanced deep learning techniques and electronic health records (EHR) to provid [Source 4] Title: CarePre: An Intelligent Clinical Decision Assistance System Abstract: Clinical decision support systems (CDSS) are widely used to assist with medical decision making. However, CDSS typically require manually curated rules and other data which are difficult to maintain and keep up-to-date. Recent systems leverage advanced deep learning techniques and electronic health records (EHR) to provid [Source 5] Title: CDR-Agent: Intelligent Selection and Execution of Clinical Decision Rules Using Large Language Model Agents Abstract: Clinical decision support systems (CDSS) will play an in-creasing role in improving the quality of medical care for critically ill patients. However, due to limitations in current informatics infrastructure, CDSS do not always have com-plete informat
+
+--------------------------------------------------
+QUERY 3: RESEARCH_GAPS - AI in pathology and histopathology
+--------------------------------------------------
+Query: AI in pathology and histopathology
+Word Count: 289
+Quality Score: 8/10
+Processing Time: 26.59s
+Content:
+Abstract: Towards the Augmented Pathologist: Challenges of Explainable-AI in Digital Pathology Abstract: Digital pathology is not only one of the most promising fields of diagnostic medicine, but at the same time a hot topic for fundamental research. Digital pathology is not just the transfer of histopathological slides into digital representations. The combination of different data sources (images, [Source 1] Title: ORCA: A Comprehensive AI-Driven Platform for Digital Pathology Analysis and Biomarker Discovery Abstract: Artificial intelligence-enabled histopathological data analysis has become a valuable assistant to the pathologist. However, existing models lack representation and inference abilities compared with those of pathologists, especially in cancer subtype diagnosis, which is unconvin [Source 2] Title: SPLICE -- Streamlining Digital Pathology Image Processing Abstract: Digital pathology and the integration of artificial intelligence (AI) models have revolutionized histopathology, opening new opportunities. With the increasing availability of Whole Slide Images (WSIs), there's a growing demand for efficient retrieval, processing, and analysis of relevant images from vast biomedical archive [Source 7] Title: Survey of XAI in digital pathology Abstract: Artificial intelligence (AI) has shown great promise for diagnostic imaging assessments. However, the application of AI to support medical diagnostics in clinical routine comes with many challenges. The algorithms should have high prediction accuracy but also be transparent, understandable and reliable. Thus, explainable artificial intelligence ( [Source 8] Title: Google Auto ML versus Apple Create ML for Histopathologic Cancer Diagnosis; Which Algorithms Are Better? Abstract: Momentum Contrastive Learning with Multi-head Attention-based Knowledge Distillation for Histopathology Image Analysis Abstract: There is no doubt that advanced artificial intelligence models and high quality data are the keys to success in developing computational pathology tools. Although the overall volume of pathology data keeps increasing, a lack of quality data is a common issue
+
+--------------------------------------------------
+QUERY 4: QA - medical image analysis
+--------------------------------------------------
+Query: What are the advantages of convolutional neural networks over traditional computer vision?
+Word Count: 90
+Quality Score: 5/10
+Processing Time: 10.12s
+Content:
+Abstract: The emergence of Vision Transformers (ViTs) has revolutionized computer vision, yet their effectiveness compared to traditional Convolutional Neural Networks (CNNs) in medical image segmentation remains under-explored. This study presents a comprehensive comparative analysis of CNN [Source 11] Title: MoViT: Memorizing Vision Transformers for Medical Image Analysis Abstract: The synergy of long-range dependencies from transformers and local representations of image content from convolutional neural networks (CNNs) has led to advanced architectures and increased performance for various medical image analysis tasks due to their complementary benefits. However, compared with CNNs, transform
+
+--------------------------------------------------
+QUERY 5: LITERATURE_SURVEY - federated learning for healthcare data privacy
+--------------------------------------------------
+Query: federated learning for healthcare data privacy
+Word Count: 39
+Quality Score: 4/10
+Processing Time: 7.38s
+Content:
+Abstract: Federated learning (FL) has enabled training models collaboratively from multiple data owning parties without sharing their data. Given the privacy regulations of patient's healthcare data, learning-based systems in healthcare can greatly benefit from privacy-preserving FL approaches. However, typi
+
+--------------------------------------------------
+QUERY 6: QA - Explainable AI (XAI) in cardiology diagnosis
+--------------------------------------------------
+Query: Why is model interpretability crucial in cardiac risk prediction?
+Word Count: 309
+Quality Score: 8/10
+Processing Time: 29.06s
+Content:
+Abstract: As machine learning models become increasingly prevalent in medical diagnostics, the need for interpretability and transparency becomes paramount. The XAI Renaissance signifies a significant shift in the field, aiming to redefine the interpretability of medical diagnostic models. This paper explores the inno [Source 1] Title: A Brief Review of Explainable Artificial Intelligence in Healthcare Abstract: The absence of transparency and explainability hinders the clinical adoption of Machine learning algorithms. Although various methods of explainable artificial intelligence (XAI) have been suggested, there is a lack of literature that delves into their practicality and assesses them based on [Source 2] Title: MiMICRI: Towards Domain-centered Counterfactual Explanations of Cardiovascular Image Classification Models Abstract: The recent prevalence of publicly accessible, large medical imaging datasets has led to a proliferation of artificial intelligence (AI) models for cardiovascular image classification and analysis. At the same time, the potentially significant impacts of these models have moti [Source 3] Title: CoFE: A Framework Generating Counterfactual ECG for Explainable Cardiac AI-Diagnostics Abstract: Recognizing the need for explainable AI (XAI) approaches to enable the successful integration of AI-based ECG prediction models into clinical practice, we introduce a framework generating textbfCountertextbfFactual textbfECGs (i,e., named CoFE) to illustrate how specific featur [Source 4] Title: Introducing delta-XAI: a novel sensitivity-based method for local AI explanations Abstract: The increasing demand for transparent and reliable models, particularly in high-stakes decision-making areas such as medical image analysis, has led to the emergence of explainable Artificial Intelligence (XAI). Post-hoc XAI techniques, which aim to explain black-box models after training, have raised concer [Source 5] Title: Self-eXplainable AI for Medical Image Analysis: A Survey and New Outlooks Abstract: The increasing demand for transparent and reliable models, particularly in high-stakes decision-making areas such as medical image analysis, has led to the emergence of explainable Artificial Intelligence (XAI). Post-hoc XAI techniques, which aim to explain black-box models after
+
+--------------------------------------------------
+QUERY 7: RESEARCH_GAPS - challenges of multimodal data integration in EHRs
+--------------------------------------------------
+Query: challenges of multimodal data integration in EHRs
+Word Count: 201
+Quality Score: 8/10
+Processing Time: 28.77s
+Content:
+Abstract: Accurate prediction of clinical outcomes using Electronic Health Records (EHRs) is critical for early intervention, efficient resource allocation, and improved patient care. EHRs contain multimodal data, including both structured data in tabular form and unstructured clinical notes that provide rich, context-speci [Source 1] Title: Improving Hospital Risk Prediction with Knowledge-Augmented Multimodal EHR Modeling Abstract: Accurate prediction of clinical outcomes using Electronic Health Records (EHRs) is critical for early intervention, efficient resource allocation, and improved patient care. EHRs contain multimodal data, including both structured data in tabular form and unstructured clinical notes that provide rich, context-speci [Source 2] Title: Multimodal Fusion of EHR in Structures and Semantics: Integrating Clinical Records and Notes with Hypergraph and LLM Abstract: Electronic Health Records (EHRs) have become increasingly popular to support clinical decision-making and healthcare in recent decades. EHRs usually contain heterogeneous information, such as structured data in tabular form and unstructured data in textual notes. Di [Source 3] Title: MoMA: A Mixture-of-Multimodal-Agents Architecture for Enhancing Clinical Prediction Modelling Abstract: Multimodal electronic health record (EHR) data provide richer, complementary insights into patient health compared to single-modality data. However, effectively integrating diverse data modalities for clinical prediction modeling remains challenging due to the substantial data requirement
+
+--------------------------------------------------
+QUERY 8: LITERATURE_SURVEY - role of generative AI in drug discovery
+--------------------------------------------------
+Query: role of generative AI in drug discovery
+Word Count: 52
+Quality Score: 5/10
+Processing Time: 8.72s
+Content:
+Abstract: DrugAgent: Automating AI-aided Drug Discovery Programming through LLM Multi-Agent Collaboration Abstract: Recent progress in Large Language Models (LLMs) has drawn attention to their potential for accelerating drug discovery. However, a central problem remains: translating theoretical ideas into robust implementations in the highly specialized context of pharmaceutical research. This limita [Source 11]
+
+--------------------------------------------------
+QUERY 9: QA - Natural Language Processing in oncology
+--------------------------------------------------
+Query: What specific NLP techniques are most effective for extracting cancer staging information from clinical notes?
+Word Count: 39
+Quality Score: 4/10
+Processing Time: 7.74s
+Content:
+Abstract: Natural Language Processing (NLP) is a key technique for developing Medical Artificial Intelligence (AI) systems that leverage Electronic Health Record (EHR) data to build diagnostic and prognostic models. NLP enables the conversion of unstructured clinical tex [Source 11]
+
+--------------------------------------------------
+QUERY 10: RESEARCH_GAPS - generalization of medical AI models across diverse populations
+--------------------------------------------------
+Query: generalization of medical AI models across diverse populations
+Word Count: 340
+Quality Score: 8/10
+Processing Time: 29.78s
+Content:
+Abstract: The integration of Large Language Models (LLMs) into medical applications has sparked widespread interest across the healthcare industry, from drug discovery and development to clinical decision support, assisting telemedicine, medical devices, and healthcare insurance applications. In medicine and healthcare, there is a particular demand for sufficient and objective e [Source 4] Title: Assessing Social Determinants-Related Performance Bias of Machine Learning Models: A case of Hyperchloremia Prediction in ICU Population Abstract: Machine learning in medicine leverages the wealth of healthcare data to extract knowledge, facilitate clinical decision-making, and ultimately improve care delivery. However, ML models trained on datasets that lack demographic diversity could yie [Source 5] Title: Integrating Explainable AI in Medical Devices: Technical, Clinical and Regulatory Insights and Recommendations Abstract: There is a growing demand for the use of Artificial Intelligence (AI) and Machine Learning (ML) in healthcare, particularly as clinical decision support systems to assist medical professionals. However, the complexity of many of these models, often referred to as black bo [Source 6] Title: Algorithmic Bias, Generalist Models,and Clinical Medicine Abstract: The technical landscape of clinical machine learning is shifting in ways that destabilize pervasive assumptions about the nature and causes of algorithmic bias. On one hand, the dominant paradigm in clinical machine learning is narrow in the sense that models are trained on biomedical datasets for particular clinical tasks [Source 7] Title: Enhancing Diagnostics with Human-AI Collaboration Abstract: Artificial intelligence supports healthcare professionals with predictive modeling, greatly transforming clinical decision-making. By focusing on the pr [Source 8] Title: Explainable AI for Fair Sepsis Mortality Predictive Model Abstract: Artificial intelligence supports healthcare professionals with predictive modeling, greatly transforming clinical decision-making. By focusing on the pr [Source 9] Title: An Overview and Case Study of the Clinical AI Model Development Life Cycle for Healthcare Systems Abstract: Healthcare is one of the most promising areas for machine learning models to make a positive impact. However, successful adoption of AI-based systems in healthcare depends on engaging and educating stakeholders from diverse backgrounds about the development process of AI models. We pr
+
