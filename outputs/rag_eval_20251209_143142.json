@@ -1,0 +1,430 @@
+{
+  "experiment_name": "rag_eval_20251209_143142",
+  "evaluation_time": "2025-12-09T14:31:51.046704",
+  "total_questions": 5,
+  "valid_questions": 5,
+  "error_questions": 0,
+  "total_evaluation_time": 8.670033931732178,
+  "summary": {
+    "overall_score": 3.2700000000000005,
+    "overall_score_std": 0.14696938456699082,
+    "avg_confidence": 0.5,
+    "avg_response_time": 1.7337411403656007,
+    "criterion_averages": {
+      "relevance": {
+        "mean": 4.0,
+        "std": 0.0,
+        "min": 4.0,
+        "max": 4.0
+      },
+      "accuracy": {
+        "mean": 5.0,
+        "std": 0.0,
+        "min": 5.0,
+        "max": 5.0
+      },
+      "completeness": {
+        "mean": 2.4,
+        "std": 0.4898979485566356,
+        "min": 2.0,
+        "max": 3.0
+      },
+      "coherence": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "insightfulness": {
+        "mean": 1.4,
+        "std": 0.4898979485566356,
+        "min": 1.0,
+        "max": 2.0
+      }
+    },
+    "score_distribution": {
+      "excellent (4-5)": 0,
+      "good (3-4)": 5,
+      "fair (2-3)": 0,
+      "poor (<2)": 0
+    }
+  },
+  "detailed_results": [
+    {
+      "question": "What are the key applications of deep learning in medical imaging?",
+      "category": "technical",
+      "difficulty": "medium",
+      "answer": "Deep learning can be used for a variety of applications in medical imaging, including image classification, image segmentation, image segmentation, image segmentation, image segmentation, image segmentation, and image segmentation.",
+      "status": "success",
+      "evaluation_time": "2025-12-09T14:31:44.454085",
+      "criterion_scores": {
+        "relevance": 4.0,
+        "accuracy": 5.0,
+        "completeness": 3.0,
+        "coherence": 1.0,
+        "insightfulness": 2.0
+      },
+      "keyword_analysis": {
+        "total_keywords": 6,
+        "found_keywords": [
+          "segmentation",
+          "classification"
+        ],
+        "missing_keywords": [
+          "CNN",
+          "detection",
+          "MRI",
+          "CT"
+        ],
+        "coverage_rate": 0.3333333333333333,
+        "coverage_percentage": 33.33333333333333
+      },
+      "ground_truth_comparison": {},
+      "suggestions": [
+        "Add post-processing for better answer structure",
+        "Enhance analysis with more contextual information",
+        "Improve keyword coverage (currently 33%)"
+      ],
+      "overall_score": 3.45,
+      "timing": {
+        "question_time": 2.077960729598999,
+        "retrieval_time": 2.0742416381835938e-05,
+        "generation_time": 2.0778160095214844,
+        "enhancement_time": 0,
+        "total_time": 2.0778393745422363
+      },
+      "pipeline_metrics": {
+        "retrieval_passages": 8,
+        "avg_similarity": 0.5914758369326591,
+        "top_similarity": 0.6054006218910217,
+        "confidence": 0.5,
+        "confidence_level": "UNKNOWN",
+        "answer_length": 231
+      }
+    },
+    {
+      "question": "How is machine learning used for early disease diagnosis?",
+      "category": "clinical",
+      "difficulty": "medium",
+      "answer": "AI/ML can be used for early disease diagnosis by predicting the likelihood of a disease based on a number of factors, such as the severity of the disease, the presence or absence of symptoms, and the presence or absence of a disease-causing agent.",
+      "status": "success",
+      "evaluation_time": "2025-12-09T14:31:47.069552",
+      "criterion_scores": {
+        "relevance": 4.0,
+        "accuracy": 5.0,
+        "completeness": 3.0,
+        "coherence": 1.0,
+        "insightfulness": 2.0
+      },
+      "keyword_analysis": {
+        "total_keywords": 4,
+        "found_keywords": [],
+        "missing_keywords": [
+          "early detection",
+          "predictive models",
+          "risk assessment",
+          "biomarkers"
+        ],
+        "coverage_rate": 0.0,
+        "coverage_percentage": 0.0
+      },
+      "ground_truth_comparison": {},
+      "suggestions": [
+        "Add post-processing for better answer structure",
+        "Enhance analysis with more contextual information",
+        "Improve keyword coverage (currently 0%)"
+      ],
+      "overall_score": 3.45,
+      "timing": {
+        "question_time": 2.6153550148010254,
+        "retrieval_time": 2.2411346435546875e-05,
+        "generation_time": 2.6152021884918213,
+        "enhancement_time": 0,
+        "total_time": 2.6152265071868896
+      },
+      "pipeline_metrics": {
+        "retrieval_passages": 8,
+        "avg_similarity": 0.544862799346447,
+        "top_similarity": 0.5635048151016235,
+        "confidence": 0.5,
+        "confidence_level": "UNKNOWN",
+        "answer_length": 247
+      }
+    },
+    {
+      "question": "What are the main challenges of deploying AI in clinical settings?",
+      "category": "implementation",
+      "difficulty": "hard",
+      "answer": "AI/ML has the potential to be used in clinical settings, but there are many challenges to deploying AI/ML in clinical settings.",
+      "status": "success",
+      "evaluation_time": "2025-12-09T14:31:48.430000",
+      "criterion_scores": {
+        "relevance": 4.0,
+        "accuracy": 5.0,
+        "completeness": 2.0,
+        "coherence": 1.0,
+        "insightfulness": 1.0
+      },
+      "keyword_analysis": {
+        "total_keywords": 5,
+        "found_keywords": [],
+        "missing_keywords": [
+          "regulatory",
+          "validation",
+          "integration",
+          "data privacy",
+          "clinical workflow"
+        ],
+        "coverage_rate": 0.0,
+        "coverage_percentage": 0.0
+      },
+      "ground_truth_comparison": {},
+      "suggestions": [
+        "Increase answer depth with more retrieved passages",
+        "Add post-processing for better answer structure",
+        "Enhance analysis with more contextual information",
+        "Improve keyword coverage (currently 0%)"
+      ],
+      "overall_score": 3.15,
+      "timing": {
+        "question_time": 1.3603472709655762,
+        "retrieval_time": 1.8596649169921875e-05,
+        "generation_time": 1.360201358795166,
+        "enhancement_time": 0,
+        "total_time": 1.360222339630127
+      },
+      "pipeline_metrics": {
+        "retrieval_passages": 8,
+        "avg_similarity": 0.5740048140287399,
+        "top_similarity": 0.5867086052894592,
+        "confidence": 0.5,
+        "confidence_level": "UNKNOWN",
+        "answer_length": 127
+      }
+    },
+    {
+      "question": "How does natural language processing help in clinical documentation?",
+      "category": "nlp",
+      "difficulty": "medium",
+      "answer": "AI/ML can be used to improve the quality of clinical documentation.",
+      "status": "success",
+      "evaluation_time": "2025-12-09T14:31:50.206244",
+      "criterion_scores": {
+        "relevance": 4.0,
+        "accuracy": 5.0,
+        "completeness": 2.0,
+        "coherence": 1.0,
+        "insightfulness": 1.0
+      },
+      "keyword_analysis": {
+        "total_keywords": 5,
+        "found_keywords": [],
+        "missing_keywords": [
+          "clinical notes",
+          "information extraction",
+          "NER",
+          "summarization",
+          "EHR"
+        ],
+        "coverage_rate": 0.0,
+        "coverage_percentage": 0.0
+      },
+      "ground_truth_comparison": {},
+      "suggestions": [
+        "Increase answer depth with more retrieved passages",
+        "Add post-processing for better answer structure",
+        "Enhance analysis with more contextual information",
+        "Improve keyword coverage (currently 0%)"
+      ],
+      "overall_score": 3.15,
+      "timing": {
+        "question_time": 1.7761292457580566,
+        "retrieval_time": 2.1696090698242188e-05,
+        "generation_time": 1.7759227752685547,
+        "enhancement_time": 0,
+        "total_time": 1.7759473323822021
+      },
+      "pipeline_metrics": {
+        "retrieval_passages": 8,
+        "avg_similarity": 0.5919789224863052,
+        "top_similarity": 0.6066997647285461,
+        "confidence": 0.5,
+        "confidence_level": "UNKNOWN",
+        "answer_length": 67
+      }
+    },
+    {
+      "question": "What are the ethical considerations in medical AI research?",
+      "category": "ethics",
+      "difficulty": "hard",
+      "answer": "Ethical considerations in medical AI research include:",
+      "status": "success",
+      "evaluation_time": "2025-12-09T14:31:51.046000",
+      "criterion_scores": {
+        "relevance": 4.0,
+        "accuracy": 5.0,
+        "completeness": 2.0,
+        "coherence": 1.0,
+        "insightfulness": 1.0
+      },
+      "keyword_analysis": {
+        "total_keywords": 5,
+        "found_keywords": [],
+        "missing_keywords": [
+          "bias",
+          "fairness",
+          "transparency",
+          "accountability",
+          "privacy"
+        ],
+        "coverage_rate": 0.0,
+        "coverage_percentage": 0.0
+      },
+      "ground_truth_comparison": {},
+      "suggestions": [
+        "Increase answer depth with more retrieved passages",
+        "Add post-processing for better answer structure",
+        "Enhance analysis with more contextual information",
+        "Improve keyword coverage (currently 0%)"
+      ],
+      "overall_score": 3.15,
+      "timing": {
+        "question_time": 0.8396084308624268,
+        "retrieval_time": 2.5510787963867188e-05,
+        "generation_time": 0.8394415378570557,
+        "enhancement_time": 0,
+        "total_time": 0.8394701480865479
+      },
+      "pipeline_metrics": {
+        "retrieval_passages": 8,
+        "avg_similarity": 0.6114949360489845,
+        "top_similarity": 0.6325427889823914,
+        "confidence": 0.5,
+        "confidence_level": "UNKNOWN",
+        "answer_length": 54
+      }
+    }
+  ],
+  "error_results": [],
+  "category_breakdown": {
+    "technical": {
+      "count": 1,
+      "mean_score": 3.45,
+      "std_score": 0.0,
+      "min_score": 3.45,
+      "max_score": 3.45
+    },
+    "clinical": {
+      "count": 1,
+      "mean_score": 3.45,
+      "std_score": 0.0,
+      "min_score": 3.45,
+      "max_score": 3.45
+    },
+    "implementation": {
+      "count": 1,
+      "mean_score": 3.15,
+      "std_score": 0.0,
+      "min_score": 3.15,
+      "max_score": 3.15
+    },
+    "nlp": {
+      "count": 1,
+      "mean_score": 3.15,
+      "std_score": 0.0,
+      "min_score": 3.15,
+      "max_score": 3.15
+    },
+    "ethics": {
+      "count": 1,
+      "mean_score": 3.15,
+      "std_score": 0.0,
+      "min_score": 3.15,
+      "max_score": 3.15
+    }
+  },
+  "difficulty_breakdown": {
+    "medium": {
+      "count": 3,
+      "mean_score": 3.35,
+      "std_score": 0.14142135623730964,
+      "min_score": 3.15,
+      "max_score": 3.45
+    },
+    "hard": {
+      "count": 2,
+      "mean_score": 3.15,
+      "std_score": 0.0,
+      "min_score": 3.15,
+      "max_score": 3.15
+    }
+  },
+  "performance_trends": {
+    "score_trend": [
+      [
+        1,
+        3.45
+      ],
+      [
+        2,
+        3.45
+      ],
+      [
+        3,
+        3.15
+      ],
+      [
+        4,
+        3.15
+      ],
+      [
+        5,
+        3.15
+      ]
+    ],
+    "time_trend": [
+      [
+        1,
+        2.0778393745422363
+      ],
+      [
+        2,
+        2.6152265071868896
+      ],
+      [
+        3,
+        1.360222339630127
+      ],
+      [
+        4,
+        1.7759473323822021
+      ],
+      [
+        5,
+        0.8394701480865479
+      ]
+    ],
+    "performance_trend": "stable",
+    "correlation_score_time": 0.825589471739985
+  },
+  "recommendations": [
+    {
+      "priority": "medium",
+      "area": "Completeness",
+      "recommendation": "Improve completeness through better context gathering and synthesis",
+      "metric": "Completeness Score: 2.40"
+    },
+    {
+      "priority": "medium",
+      "area": "Coherence",
+      "recommendation": "Improve coherence through better answer structuring and post-processing",
+      "metric": "Coherence Score: 1.00"
+    },
+    {
+      "priority": "medium",
+      "area": "Insightfulness",
+      "recommendation": "Improve insightfulness through better analytical depth and critical thinking",
+      "metric": "Insightfulness Score: 1.40"
+    }
+  ]
+}
